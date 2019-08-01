@@ -3,20 +3,24 @@ body, html {
 	 margin: 0;
 	 height: 100%;
 }
+
 .khoi { 
 	 height: 100%;
 }
+
 .chung {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
+
 .chung > section {
 	position: absolute;
 	width: 50%;
 	height: 50%;
 }
+
 .anh {
 	background-color: #8279708a;
 	width: 100%;
@@ -31,6 +35,7 @@ body, html {
 	text-align: center;
 	padding: 10px 0px 10px 0px;
 }
+
 .chung > section:first-child {
 	top: 0;
 	left: 0;
