@@ -120,6 +120,14 @@
 		}
 
 /*menu*/
+
+#navbar-overlay{
+	
+display: none;
+	
+margin: 0;
+}
+
 label .menu {
   position: absolute;
   right: -100px;
