@@ -27,45 +27,85 @@ body, html {
 	height: 34%;
 	position: absolute;
 	z-index: 1;
-	bottom: 0;
+	bottom: 0;	
+	transition: .8s all ease ;
 }
-.anh p{
+
+
+.anh:hover{
+	
+	height: 100%;
+}
+
+.anh p {
 	font-size: 2em;
 	color: white;
 	z-index: 2;
 	position: absolute;
+}
+
+.anh .text1 {	
+	top: 27%;		
+	left: 36%;
+}
+.anh .text2 {	
+	top: 27%;	
+	left: 35%;
+}
+.anh .text3 {
 	top: 27%;
-	left: 34%;
+	left: 33%;
+}
+.anh .text4 {	
+	top: 27%;	
+	left: 41%;
+}
+
+.chung > section{
+	transition: .6s all ease ;
+	background-size: cover;
+	background-position: center;
 }
 
 .chung > section:first-child {
 	top: 0;
 	left: 0;
 	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
 }
+.chung > section:first-child:hover{
+	transform: scale(1.11);
+}
+/*.chung > section:nth-child(2):hover {
+	transform: scale(1.11);
+}*/
+
+/*
+.chung > section:nth-child(3):hover,
+.chung > section:nth-child(4):hover {
+	transform: scale(1.11);
+}*/
+
+
 
 .chung > section:nth-child(2) {
 	top: 0;
 	left: 50%;
 	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
+
 }
 
 .chung > section:nth-child(3) {
 	top: 50%;
 	left: 0;
 	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
 }
 
 .chung > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
 	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	background-size: cover;
-	background-position: center;
+	overflow: hidden;
 }
