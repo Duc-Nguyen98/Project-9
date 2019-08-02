@@ -1,0 +1,218 @@
+/*	
+		Project : *********
+		Author : **********
+		Date : ************
+		version : BootStrap4 ver 4.3.1
+		*/
+		*{
+			padding:0;
+			margin: 0;
+		}
+
+		html,body{
+			width: 100%;
+			height: 100%;
+		}
+
+
+		.banner-container{
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			z-index: 1;
+		}
+
+		/*    Banner CSS Start
+		--------------------------------*/
+
+		.slide{
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-position-y: top;
+		}
+
+
+		.slide.transparent-background{
+			height: -webkit-fill-available!important;
+			width: 100%;
+			position: relative;
+			background-position: center;;
+			
+		}
+
+		.slide-one{
+			background-image:linear-gradient(to right,#ffffff14,#80808061),
+			url(https://images.pexels.com/photos/1432942/pexels-photo-1432942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+		}
+
+		.slide-two{
+			background-image:linear-gradient(to right,#ffffff14,#80808061),
+			url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+		}
+
+		.thanh{
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			left: 50%;
+			width: 100%;
+			height: 2px;
+			background: #ffff;
+			overflow: hidden;
+		}
+
+
+		.caption_article{
+			background: transparent;
+			width: 100%!important;
+			position: relative;
+			height: -webkit-fill-available!important;
+		}
+
+		.banner-text{
+			position: absolute;
+			background: transparent;
+			z-index: 1;
+			bottom: 0;
+			left: 0;
+		}
+
+		.white_bar:after{
+			position: absolute;
+			content: '';
+			width: 100%;
+			height: 3px;
+			background: #fff;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+
+		/*main_white_bar*/
+
+		/*end main_white_bar*/
+		
+		.fsz_25{
+			font-size: 2.5em;
+		}
+
+		.fsz_13{
+			font-size: 1.3em;
+		}
+
+		.ic_FB {
+			background: url('images/icon/facebook-logo.svg');
+
+		}
+		
+		.ic_INS{
+			background: url('images/icon/instagram-logo.svg');
+		}
+
+		.ic_EIC {
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: inline-block;
+			height: 34px;
+			width: 34px;
+		}
+
+		/*menu*/
+
+		#navbar-overlay{
+		/*	display: none;
+			margin: 0;*/
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 9999999;
+		margin: 0 15px;
+		}
+
+		label .menu {
+			position: absolute;
+			right: -100px;
+			top: -100px;
+			z-index: 999999999;
+			width: 200px;
+			height: 200px;
+
+			border-radius: 50%;
+			transition: 0.5s ease-in-out;
+			box-shadow: 0 0 0 0 grey, 0 0 0 0 whitesmoke;
+			cursor: pointer;
+		}
+
+		label .hamburger {
+			position: absolute;
+			top: 135px;
+			left: 50px;
+			width: 30px;
+			height: 2px;
+			background: #000;
+			display: block;
+			transform-origin: center;
+			transition: 0.5s ease-in-out;
+		}
+		label .hamburger:after, label .hamburger:before {
+			transition: 0.5s ease-in-out;
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: #000;
+		}
+		label .hamburger:before {
+			top: -10px;
+		}
+		label .hamburger:after {
+			bottom: -10px;
+		}
+		label input {
+			display: none;
+		}
+		label input:checked + .menu {
+			box-shadow: 0 0 0 100vw grey, 0 0 0 100vh grey;
+			border-radius: 0;
+			background-color: grey
+		}
+		label input:checked + .menu .hamburger {
+			transform: rotate(45deg);
+		}
+		label input:checked + .menu .hamburger:after {
+			transform: rotate(90deg);
+			bottom: 0;
+		}
+		label input:checked + .menu .hamburger:before {
+			transform: rotate(90deg);
+			top: 0;
+		}
+		label input:checked + .menu + ul {
+			opacity: 1;
+		}
+		label ul {
+			z-index: 200;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			transition: 0.25s 0s ease-in-out;
+		}
+		label a {
+			margin-bottom: 1em;
+			display: block;
+			color: #000;
+			text-decoration: none;
+		}
+		h1 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 80%;
+			text-align: center;
+		}
