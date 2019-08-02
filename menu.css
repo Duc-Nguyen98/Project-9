@@ -30,11 +30,14 @@ body, html {
 	bottom: 0;	
 	transition: .8s all ease ;
 }
-
-
-.anh:hover{	
-	height: 100%;	
+section:hover .anh{
+	height: 100%;
 }
+
+
+/*.anh:hover{	
+	height: 100%;	
+}*/
 .anh p {
 	font-size: 2em;
 	color: white;
