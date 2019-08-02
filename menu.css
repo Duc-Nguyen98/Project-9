@@ -32,16 +32,15 @@ body, html {
 }
 
 
-.anh:hover{
-	
-	height: 100%;
+.anh:hover{	
+	height: 100%;	
 }
-
 .anh p {
 	font-size: 2em;
 	color: white;
 	z-index: 2;
 	position: absolute;
+	
 }
 
 .anh .text1 {	
@@ -61,8 +60,7 @@ body, html {
 	left: 41%;
 }
 
-.chung > section{
-	transition: .6s all ease ;
+.chung > section{	
 	background-size: cover;
 	background-position: center;
 }
@@ -71,41 +69,19 @@ body, html {
 	top: 0;
 	left: 0;
 	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	overflow: hidden;
 }
-.chung > section:first-child:hover{
-	transform: scale(1.11);
-}
-/*.chung > section:nth-child(2):hover {
-	transform: scale(1.11);
-}*/
-
-/*
-.chung > section:nth-child(3):hover,
-.chung > section:nth-child(4):hover {
-	transform: scale(1.11);
-}*/
-
-
-
 .chung > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	overflow: hidden;
-
+	background-image: url("images/jpg/anh.png");
 }
-
 .chung > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	overflow: hidden;
+	background-image: url("https://shopxanh.com:88/user/nguyenhuystudio/product/facab3b6e887c9cdde15787d2b14ac2f.jpg");	
 }
-
 .chung > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background-image: url(images/jpg/blond-hair-chairs-coffee-2041627.jpg);
-	overflow: hidden;
+	background-image: url("https://websolutions.com.vn/wp-content/uploads/2019/01/1-5.png");
 }
